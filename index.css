@@ -13,7 +13,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: large;
+    font-size: larger;
     font-weight: bold;
 }
 
@@ -31,14 +31,9 @@ h3 {
 }
 
 .contact {
-    display: inline-block;
+    float: left;
 }
 
-div.mycontainer {
-    width:100%;
-    overflow:auto;
-  }
-  div.mycontainer div {
-    width:50%;  
-    float:left;
-  }
+#right {
+    text-align: right;
+}
