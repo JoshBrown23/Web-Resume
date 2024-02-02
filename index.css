@@ -41,15 +41,13 @@ body {
     justify-content: left;
 } */
 
-p.a {
-    text-indent: 50px;
-    font-weight: bold;
-}
+.contact {
+    display: inline;
+    ul {
+        list-style: none;
+    }
 
-p.b {
-    text-indent: 50px;
-}
-
-ul li {
-    display: inline-block;
+    li + li::before {
+        content: " · "
+    }
 }
