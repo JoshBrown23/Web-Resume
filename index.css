@@ -31,7 +31,8 @@ h3 {
 }
 
 .contact {
-    float: left;
+    display: inline;
+    margin-right: 10px;
 }
 
 #right {
