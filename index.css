@@ -31,7 +31,7 @@ body {
     font-style: italic;
 }
 
-.education {
+/* .education {
     display: flex;
     justify-content: space-between;
 }
@@ -39,7 +39,7 @@ body {
 .projects {
     display: flex;
     justify-content: left;
-}
+} */
 
 p.a {
     text-indent: 50px;
