@@ -1,0 +1,55 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    line-height: normal;
+    font-size: larger;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.h1 {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.h2 {
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.h3 {
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects {
+    display: flex;
+    justify-content: left;
+}
+
+p.a {
+    text-indent: 50px;
+    font-weight: bold;
+}
+
+p.b {
+    text-indent: 50px;
+}
+
+ul li {
+    display: inline-block;
+}
