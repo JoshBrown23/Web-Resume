@@ -12,19 +12,19 @@ body {
     overflow: hidden;
 }
 
-.h1 {
+h1 {
     text-align: center;
     font-size: large;
     font-weight: bold;
 }
 
-.h2 {
+h2 {
     text-align: left;
     font-size: medium;
     font-weight: bold;
 }
 
-.h3 {
+h3 {
     text-align: left;
     font-size: medium;
     font-weight: bold;
@@ -43,11 +43,13 @@ body {
 
 .contact {
     display: inline;
-    ul {
-        list-style: none;
-    }
-
-    li + li::before {
-        content: " · "
-    }
 }
+
+div.mycontainer {
+    width:100%;
+    overflow:auto;
+  }
+  div.mycontainer div {
+    width:50%;  
+    float:left;
+  }
