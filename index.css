@@ -13,7 +13,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: xx-large;
+    font-size: xx;
     font-weight: bold;
 }
 
@@ -31,12 +31,19 @@ h3 {
 }
 
 .contact {
-    text-align: center;
     display: inline;
     margin-left: 40px;
     margin-right: 10px;
 }
 
-#right {
-    text-align: right;
+.l-field{
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+}
+
+.r-field{
+    width: 50%;
+    text-align: left;
+    display: inline-block;
 }
