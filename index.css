@@ -36,6 +36,12 @@ h3 {
     margin-right: 40px;
 }
 
+.field {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
 .l-field{
     width: 300px;
     text-align: left;
