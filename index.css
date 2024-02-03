@@ -34,13 +34,13 @@ h3 {
     display: list-item;
     float: left;
     margin-right: 40px;
+    padding: 10px;
 }
 
 .center {
     justify-content: center;
     margin: auto;
-    width: 30%;
-    padding: 10px;
+    width: 50%;
 }
 
 .l-field{
