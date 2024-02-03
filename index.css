@@ -31,19 +31,19 @@ h3 {
 }
 
 .contact {
-    display: inline;
-    margin-left: 40px;
-    margin-right: 10px;
+    display: list-item;
+    float: left;
+    width: auto;
 }
 
 .l-field{
-    width: 50%;
+    width: 300px;
     text-align: left;
     display: inline-block;
 }
 
 .r-field{
-    width: 50%;
+    width: 300px;
     text-align: left;
     display: inline-block;
 }
