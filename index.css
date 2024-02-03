@@ -33,17 +33,17 @@ h3 {
 .contact {
     display: list-item;
     float: left;
-    width: auto;
+    width: 100px;
 }
 
 .l-field{
-    width: 300px;
+    width: 500px;
     text-align: left;
     display: inline-block;
 }
 
 .r-field{
-    width: 300px;
+    width: 500px;
     text-align: left;
     display: inline-block;
 }
