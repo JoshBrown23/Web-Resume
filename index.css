@@ -34,7 +34,7 @@ h3 {
     background-color: cornflowerblue;
     border-radius: 15px 25px;
     padding: 30px;
-    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .highlights, .tech-qual, .education, .projects, .experience, .honors-awards, .leadership-activities-volunteer, .language-skills {
@@ -49,6 +49,7 @@ h3 {
     float: left;
     margin-right: 40px;
     padding: 10px;
+    position: fixed;
 }
 
 .center {
