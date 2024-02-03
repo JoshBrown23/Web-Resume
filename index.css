@@ -30,6 +30,10 @@ h3 {
     font-style: italic;
 }
 
+.highlights, .tech-qual, .education, .projects, .experience, .honors-awards, .leadership-activities-volunteer, .language-skills {
+    background-color: darkgray;
+}
+
 .contact {
     display: list-item;
     float: left;
