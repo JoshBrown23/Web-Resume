@@ -3,138 +3,141 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel='stylesheet' href='index.css'>
+        <script src="index.js"></script>
         <title>Web Resume</title>
     </head>    
     <body>
         <div class='container'>
+            <div id="generatePDF">
+                <header class='name'>
+                    <h1>Joshua Brown</h1><hr>
+                </header>
 
-            <header class='name'>
-                <h1>Joshua Brown</h1><hr>
-            </header>
+                <section class="main-info">
+                    <div>
+                        <div class="center">
+                            <p>    
+                                <ul>
+                                    <li class="contact"><a href= "https://www.linkedin.com/in/joshua-brown-27aa03295/">My LinkedIn</a></li>
+                                    <li class="contact">815-582-1468</li>
+                                    <li class="contact"><a href= "mailto:joshuaabrown@lewisu.edu">My eMail</a></li>
+                                    <li class="contact">Serena, IL</li>
+                                </ul>
+                            </p>
+                        </div><br><br>        
+                    </div>
+                </section>
 
-            <section class="main-info">
-                <div>
-                    <div class="center">
-                        <p>    
+                <!-- <section class='highlights'>
+                    <h2>SUMMARY OF QUALIFICATIONS</h2><hr>
+                    <p>
+                        <ul>
+
+                        </ul>
+                    </p>
+                </section> -->
+
+                <section class="tech-qual">
+                    <h2>SUMMARY OF TECHNICAL QUALIFICATIONS</h2><hr>
+                    <h3>OPERATING SYSTEMS:</h3>
+                        <ul>
+                            <li>Windows, Android</li>
+                        </ul>
+                    <h3>LANGUAGES:</h3>
+                        <ul>
+                            <li>C++, C#, Java, Python</li>
+                        </ul> 
+                    <h3>WEB:</h3>
+                        <ul>
+                            <li>HTML, CSS</li>
+                        </ul>
+                    <h3>APPLICATIONS:</h3>
+                        <ul>
+                            <li>Microsoft Office, Google Docs/Slides/Sheets</li>
+                        </ul>        
+                </section>
+
+                <section class='education'>
+                    <h2>EDUCATION</h2><hr>
+                    <div class="l-field">
+                        <div>
+                            <p>Bachelor of Science in Computer Science</p>
+                            <p>Lewis University, Romeoville, IL</p>
+                        </div>
+                    </div>
+                    
+                    <div class="r-field">
+                        <div>
+                            <p>Expected: May 2026</p>
+                            <p>GPA: 4.0/4.0</p>
+                        </div>
+                    </div>
+                </section>        
+
+                <section class='projects'>
+                    <h2>PROJECTS</h2><hr>
+                    <bold>Intro to Engineering Capstone Project at Lewis University</bold>
+                    <p>
+                        <ul>
+                            <li>Designed, developed, and manufactured a small system that helps basement sump pump wells handle excess water
+                                in the event of a flood. Developed using an arduino and C++.
+                            </li>
+                        </ul>
+                    </p>
+                </section>
+
+                <section class='experience'>
+                    <h2>EXPERIENCE</h2><hr>
+                    <div class="l-field">
+                        <div>
+                            <bold>Student Worker</bold>
+                        </div>
+                    </div>
+                    <div class="r-field">
+                        <div>
+                            <p>August 2023 - Present</p>
+                        </div>
+                    </div>
+                    <p>Writing Center, Lewis University, Romeoville, IL</p>
+                    <p>
+                        <ul>
+                            <li>Assist students with writing assignments and give constructive feedback</li>
+                        </ul>
+                    </p>
+                </section>
+
+                <section class='honors-awards'>
+                    <h2>HONORS AND AWARDS</h2><hr>
+                        <p>
                             <ul>
-                                <li class="contact"><a href= "https://www.linkedin.com/in/joshua-brown-27aa03295/">My LinkedIn</a></li>
-                                <li class="contact">815-582-1468</li>
-                                <li class="contact"><a href= "mailto:joshuaabrown@lewisu.edu">My eMail</a></li>
-                                <li class="contact">Serena, IL</li>
+                                <li>Dean's List, Lewis University, three semesters</li>
+                                <li>Recipient, Presidential Scholarship for academic achievement, 2022-Present</li>
+                            </ul>
+                        </p>    
+                </section>
+
+                <section class='leadership-activities-volunteer'>
+                    <h2>LEADERSHIP, ACTIVITIES, AND VOLUNTEER EXPERIENCE</h2><hr>
+                        <p>
+                            <ul>
+                                <li>Member, National Society of Leadership and Success, 2023-Present</li>
+                                <li>Member, Lewis University Rock Band Ensemble, 2023-Present</li>
                             </ul>
                         </p>
-                    </div><br><br>        
-                </div>
-            </section>
+                </section>
 
-            <!-- <section class='highlights'>
-                <h2>SUMMARY OF QUALIFICATIONS</h2><hr>
-                <p>
-                    <ul>
-
-                    </ul>
-                </p>
-            </section> -->
-
-            <section class="tech-qual">
-                <h2>SUMMARY OF TECHNICAL QUALIFICATIONS</h2><hr>
-                <h3>OPERATING SYSTEMS:</h3>
-                    <ul>
-                        <li>Windows, Android</li>
-                    </ul>
-                <h3>LANGUAGES:</h3>
-                    <ul>
-                        <li>C++, C#, Java, Python</li>
-                    </ul> 
-                <h3>WEB:</h3>
-                    <ul>
-                        <li>HTML, CSS</li>
-                    </ul>
-                <h3>APPLICATIONS:</h3>
-                    <ul>
-                        <li>Microsoft Office, Google Docs/Slides/Sheets</li>
-                    </ul>        
-            </section>
-
-            <section class='education'>
-                <h2>EDUCATION</h2><hr>
-                <div class="l-field">
-                    <div>
-                        <p>Bachelor of Science in Computer Science</p>
-                        <p>Lewis University, Romeoville, IL</p>
-                    </div>
-                </div>
-                
-                <div class="r-field">
-                    <div>
-                        <p>Expected: May 2026</p>
-                        <p>GPA: 4.0/4.0</p>
-                    </div>
-                </div>
-            </section>        
-
-            <section class='projects'>
-                <h2>PROJECTS</h2><hr>
-                <bold>Intro to Engineering Capstone Project at Lewis University</bold>
-                <p>
-                    <ul>
-                        <li>Designed, developed, and manufactured a small system that helps basement sump pump wells handle excess water
-                            in the event of a flood. Developed using an arduino and C++.
-                        </li>
-                    </ul>
-                </p>
-            </section>
-
-            <section class='experience'>
-                <h2>EXPERIENCE</h2><hr>
-                <div class="l-field">
-                    <div>
-                        <bold>Student Worker</bold>
-                    </div>
-                </div>
-                <div class="r-field">
-                    <div>
-                        <p>August 2023 - Present</p>
-                    </div>
-                </div>
-                <p>Writing Center, Lewis University, Romeoville, IL</p>
-                <p>
-                    <ul>
-                        <li>Assist students with writing assignments and give constructive feedback</li>
-                    </ul>
-                </p>
-            </section>
-
-            <section class='honors-awards'>
-                <h2>HONORS AND AWARDS</h2><hr>
-                    <p>
-                        <ul>
-                            <li>Dean's List, Lewis University, three semesters</li>
-                            <li>Recipient, Presidential Scholarship for academic achievement, 2022-Present</li>
-                        </ul>
-                    </p>    
-            </section>
-
-            <section class='leadership-activities-volunteer'>
-                <h2>LEADERSHIP, ACTIVITIES, AND VOLUNTEER EXPERIENCE</h2><hr>
-                    <p>
-                        <ul>
-                            <li>Member, National Society of Leadership and Success, 2023-Present</li>
-                            <li>Member, Lewis University Rock Band Ensemble, 2023-Present</li>
-                        </ul>
-                    </p>
-            </section>
-
-            <section class='language-skills'>
-                <h2>LANGUAGE SKILLS</h2><hr>
-                    <p>
-                        <ul>
-                            <li>Fluent in English</li>
-                            <li>2 years of Spanish in High School</li>
-                            <li>Some knowledge in German, Korean, and Japanese</li>
-                        </ul>
-                    </p>
-            </section>
+                <section class='language-skills'>
+                    <h2>LANGUAGE SKILLS</h2><hr>
+                        <p>
+                            <ul>
+                                <li>Fluent in English</li>
+                                <li>2 years of Spanish in High School</li>
+                                <li>Some knowledge in German, Korean, and Japanese</li>
+                            </ul>
+                        </p>
+                </section>
+            </div>
+            <button id="pdfButton"><b>Generate PDF</b></button>
         </div>
     </body>
 </html>
