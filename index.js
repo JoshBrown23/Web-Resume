@@ -1,8 +1,6 @@
-var button = document.getElementById("pdfButton");
-button.addEventListener("click", function () {
-   var doc = new jsPDF("p", "mm", [300, 300]);
-   var makePDF = document.querySelector("#generatePdf");
-   // fromHTML Method
-   doc.fromHTML(makePDF);
-   doc.save("output.pdf");
-});
+const button = document.getElementById('download-button');
+			function generatePDF() {
+				const element = document.getElementById('resume');
+				html2pdf().from(element).save();
+			}
+			button.addEventListener('click', generatePDF);

@@ -3,14 +3,18 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel='stylesheet' href='index.css'>
-        <script src= "https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" 
+                integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" 
+                crossorigin="anonymous" 
+                referrerpolicy="no-referrer">
+        </script>
         <script src="index.js"></script>
         <title>Web Resume</title>
     </head>    
     <body>
         <div class='container'>
-            <button id="pdfButton"><b>Generate PDF</b></button>
-            <div id="generatePdf">
+            <button id="download-button"><b>Download PDF</b></button>
+            <div id="resume">
                 <header class='name'>
                     <h1>Joshua Brown</h1><hr>
                 </header>
