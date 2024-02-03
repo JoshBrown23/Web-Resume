@@ -34,8 +34,8 @@ h3 {
 .main-info {
     background-color: cornflowerblue;
     border-radius: 15px 50px;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
 }
 
 .highlights, .tech-qual, .education, .projects, .experience, .honors-awards, .leadership-activities-volunteer, .language-skills {
