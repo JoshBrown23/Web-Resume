@@ -1,10 +1,8 @@
 var button = document.getElementById("pdfButton");
-      var makepdf = document.getElementById("generatePDF");
-      button.addEventListener("click", function () {
-         var pdfwindow = window.open("", "PRINT", "height=600,width=600");
-         pdfwindowwindow.document.write(makepdf.innerHTML);
-         pdfwindow.document.close();
-         pdfwindow.focus();
-         pdfwindow.print();
-         return true;
-      });
+button.addEventListener("click", function () {
+   var doc = new jsPDF("p", "mm", [300, 300]);
+   var makePDF = document.querySelector("#generatePdf");
+   // fromHTML Method
+   doc.fromHTML(makePDF);
+   doc.save("output.pdf");
+});
