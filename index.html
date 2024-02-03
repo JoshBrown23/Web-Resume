@@ -8,13 +8,12 @@
                 crossorigin="anonymous" 
                 referrerpolicy="no-referrer">
         </script>
-        <script src="index.js"></script>
         <title>Web Resume</title>
     </head>    
     <body>
-        <div class='container'>
-            <button id="download-button"><b>Download PDF</b></button>
-            <div id="resume">
+        <div class='container' id="resume">
+            <button id="download-button">Download PDF</button>
+            <div>
                 <header class='name'>
                     <h1>Joshua Brown</h1><hr>
                 </header>
@@ -144,5 +143,20 @@
                 </section>
             </div>
         </div>
+
+        <script>
+			const button = document.getElementById('download-button');
+
+			function generatePDF() {
+				// Choose the element that your content will be rendered to.
+				const element = document.getElementById('invoice');
+				// Choose the element and save the PDF for your user.
+				html2pdf().from(element).save();
+			}
+
+			button.addEventListener('click', generatePDF);
+		</script>
+
+
     </body>
 </html>
