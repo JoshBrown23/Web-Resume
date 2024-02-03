@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: aliceblue;
+    background-color: darkgray;
     line-height: normal;
 }
 
@@ -30,8 +30,8 @@ h3 {
     font-style: italic;
 }
 
-.highlights, .tech-qual, .education, .projects, .experience, .honors-awards, .leadership-activities-volunteer, .language-skills {
-    background-color: darkgray;
+.main-info, .highlights, .tech-qual, .education, .projects, .experience, .honors-awards, .leadership-activities-volunteer, .language-skills {
+    background-color: cornflowerblue;
     border-radius: 15px 25px;
     padding: 20px;
 }
