@@ -33,6 +33,7 @@ h3 {
 .contact {
     display: list-item;
     float: left;
+    margin-right: 10px;
 }
 
 .l-field{
