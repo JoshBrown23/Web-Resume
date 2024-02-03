@@ -1,4 +1,4 @@
 function generatePdf() {
-    var element = document.getElementById('pdf-area');
+    var element = document.getElementById('resume');
     html2pdf(element);
 }
