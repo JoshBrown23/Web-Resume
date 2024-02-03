@@ -45,7 +45,7 @@ h3 {
 }
 
 .contact {
-    display: list-item;
+    display: inline-block;
     float: none;
     margin-right: 40px;
     padding: 10px;
