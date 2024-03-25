@@ -85,3 +85,7 @@ hr {
     color: white;
     font-weight: bold;
  }
+
+html2pdf().set{{
+    pagebreak: {mode: 'avoid-all'}
+}};
